@@ -3,5 +3,9 @@ extends layout/main_layout.pug
 block content
  h1 WELCOME FRIEND
  ul
-  each contact in details
-    li #{(contact.name), (contact.PhoneNo), (contact.Email)}
+  each contact in allPosts
+    li #{contact.name} 
+    li #{contact.PhoneNo}
+    li #{contact.Email}
+
+    a(href="/delete/" +contact.id) Delete
