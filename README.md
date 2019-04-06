@@ -1,2 +1,2 @@
-#  using express js and pug template engine to build a phonebook
+#  using express js and pug template engine to build a basic react app. 
  
