@@ -49,19 +49,3 @@ exports.deleteContact = (req, res, next) => {
         })
         .catch(err => next(err));
 }
-// exports.updateContact = (req, res, next) => {
-//     const contactId = req.params.id;
-//     Contact.updatebyId(contactId)
-//         .then(() => {
-//             res.redirect("/");
-//         })
-//         .catch(err => next(err));
-// }
-// exports.editContact = (req, res, next) => {
-//     const contactId = req.params.id;
-//     Contact.editbyId(contactId)
-//         .then(() => {
-//             res.redirect("/");
-//         })
-//         .catch(err => next(err));
-// }
