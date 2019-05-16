@@ -1,2 +1,2 @@
-#  using express js and pug template engine to build a basic react app. 
+#  using express js and pug template engine to build a basic app.
  
